@@ -1,0 +1,23 @@
+based on this: https://portaldata.kkp.go.id/portals/data-statistik/prod-ikan/summary
+dataset: https://www.kaggle.com/datasets/markdaniellampa/fish-dataset
+https://www.kaggle.com/datasets/crowww/a-large-scale-fish-dataset
+
+tangkap laut:
+udang: ok done
+tongkol/tuna: ok done
+kembung: ok agil
+
+budi daya pembenihan:
+patin: ok agil done
+lele: ok agil done 
+nila:  ok agil done
+gurame: ok done
+mujaer
+mas: ok 
+bandeng: ok
+bawal: ok 
+
+nilem: 
+Betok: ok 
+baung: 
+teri: 0.022
