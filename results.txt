@@ -9,7 +9,7 @@ yolov11n:
 		R: 0.774
 		mAP50: 0.816
 		F1-score: 0.794
-	image size 768:
+	image size 768: (final)
 		P: 0.851
 		R: 0.769
 		mAP50: 0.831
@@ -21,7 +21,7 @@ yolov11n:
 		F1-score: 0.790
 
 yolov12n:
-	baseline:
+	baseline: (final)
 		P: 0.836
 		R: 0.783
 		mAP50: 0.832
@@ -41,3 +41,16 @@ yolov12n:
 		R: 0.769
 		mAP50: 0.819
 		F1-score: 0.772
+final:
+	yolov11:
+		P: 0.789
+		R: 0.739
+		mAP50: 0.781
+		F1-score: 0.763
+		Speed: 4.7ms preprocess, 7.5ms inference, 0.0ms loss, 3.5ms postprocess per image
+	yolov12:
+		P: 0.844
+		R: 0.725
+		mAP50: 0.808
+		F1-score: 0.779
+		Speed: 6.8ms preprocess, 10.8ms inference, 0.0ms loss, 4.2ms postprocess per image
