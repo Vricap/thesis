@@ -1,0 +1,43 @@
+yolov11n:
+	baseline:
+		P: 0.85
+		R: 0.743
+		mAP50: 0.819
+		F1-score: 0.792
+	epoch 150:
+		P: 0.816
+		R: 0.774
+		mAP50: 0.816
+		F1-score: 0.794
+	image size 768:
+		P: 0.851
+		R: 0.769
+		mAP50: 0.831
+		F1-score: 0.807
+	optimizer SGD:
+		P: 0.865
+		R: 0.734
+		mAP50: 0.816
+		F1-score: 0.790
+
+yolov12n:
+	baseline:
+		P: 0.836
+		R: 0.783
+		mAP50: 0.832
+		F1-score: 0.808
+	epoch 150:
+		P: 0.835
+		R: 0.756
+		mAP50: 0.812
+		F1-score: 0.793
+	image size 768:
+		P: 0.811
+		R: 0.787
+		mAP50: 0.817
+		F1-score: 0.798
+	optimizer SGD:
+		P: 0.776
+		R: 0.769
+		mAP50: 0.819
+		F1-score: 0.772
